@@ -1,0 +1,25 @@
+<Configuration>
+	<Name>Proquest Dissertation Search</Name>
+	<Author>University of Cincinnati Libraries</Author>
+	<Version>1.2</Version>
+	<Active>true</Active>
+
+	<Description>Performs an Advanced title search for the LoanTitle for loans on Proquest Dissertation Abstracts.</Description>
+
+	<Forms>
+		<Form>FormRequest</Form>
+	</Forms>	
+
+	<Settings>
+		<Setting name='AutoSearch' value='true' type='boolean'>
+			<Description>Defines whether the search should be automatically performed when the form opens.</Description>
+		</Setting>
+		<Setting name='ClientId' value='' type='string'>
+			<Description>Defines the ClientId which can be obtained by viewing your Proquest Url.</Description>
+		</Setting>
+	</Settings>
+
+	<Files>
+		<File>DissertationSearch.lua</File>
+	</Files>
+</Configuration>
