@@ -1,7 +1,7 @@
 <Configuration>
 	<Name>Proquest Dissertation Search</Name>
 	<Author>University of Cincinnati Libraries</Author>
-	<Version>2.0.0</Version>
+	<Version>2.0.1</Version>
 	<Active>true</Active>
 
 	<Description>Performs an Advanced title search for the LoanTitle for loans on Proquest Dissertation Abstracts.</Description>
